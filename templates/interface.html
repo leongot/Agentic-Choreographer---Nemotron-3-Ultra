@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Mio Agente AI</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #eef2f3; display: flex; flex-direction: column; align-items: center; padding: 20px; }
+        #chat-box { width: 100%; max-width: 700px; height: 500px; border-radius: 12px; background: white; overflow-y: auto; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 20px; border: 1px solid #ddd; }
+        .message { margin-bottom: 15px; padding: 10px 15px; border-radius: 15px; max-width: 80%; line-height: 1.5; }
+        .user { background: #007bff; color: white; align-self: flex-end; margin-left: auto; border-bottom-right-radius: 2px; }
+        .ai { background: #f1f1f1; color: #333; align-self: flex-start; border-bottom-left-radius: 2px; }
+        .input-area { width: 100%; max-width: 700px; display: flex; gap: 10px; }
+        input { flex-grow: 1; padding: 12px; border: 1px solid #ccc; border-radius: 8px; outline: none; }
+        button { padding: 12px 25px; background: #007bff; color: white; border: none; border-radius: 8px; cursor: pointer; transition: background 0.3s; }
+        button:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>🤖 Agente Ollama LLM: Nemotron 3 Ultra</h1>
+    <div id="chat-box" style="display: flex; flex-direction: column;"></div>
+    <div class="input-area">
+        <input type="text" id="user-input" placeholder="Chiedi qualcosa all'AI..." onkeypress="if(event.key==='Enter') sendMessage()">
+        <button id="send-btn" onclick="sendMessage()">Invia</button>
+    </div>
+
+    <script>       
+const sessioneId = crypto.randomUUID();
+
+    async function sendMessage() {
+        const input = document.getElementById('user-input');
+        const chatBox = document.getElementById('chat-box');
+        const btn = document.getElementById('send-btn');
+        if (!input.value) return;
+
+        const userMsg = input.value;
+        
+        // 1. Mostra il messaggio dell'utente
+        chatBox.innerHTML += `<div class="message user">${userMsg}</div>`;
+        input.value = '';
+        input.disabled = true;
+        btn.disabled = true;
+        chatBox.scrollTop = chatBox.scrollHeight;
+
+        // 2. Crea il contenitore principale per l'AI
+        let aiMessageDiv = document.createElement("div");
+        aiMessageDiv.className = "message ai";
+        aiMessageDiv.innerHTML = "<b>AI:</b><br>";
+        chatBox.appendChild(aiMessageDiv);
+
+        try {
+            const response = await fetch('/chiedi', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    domanda: userMsg,
+                    sessione_id: sessioneId
+                })
+            });
+
+            const reader = response.body.getReader();
+            const decoder = new TextDecoder("utf-8");
+            let buffer = "";
+
+            while (true) {
+                const { value, done } = await reader.read();
+                if (done) break;
+
+                buffer += decoder.decode(value, { stream: true });
+                const linee = buffer.split("\n\n");
+                buffer = linee.pop(); 
+
+                for (const linea of linee) {
+                    const pulita = linea.trim();
+                    if (pulita.startsWith("data: ")) {
+                        try {
+                            const datiJson = JSON.parse(pulita.replace("data: ", ""));
+                            
+                            if (datiJson.errore) {
+                                aiMessageDiv.innerHTML = `<span style="color:red">Errore: ${datiJson.errore}</span>`;
+                                continue;
+                            }
+
+                            let thinkingBlock = aiMessageDiv.querySelector(".ai-thinking");
+                            if (!thinkingBlock) {
+                                thinkingBlock = document.createElement("div");
+                                thinkingBlock.className = "ai-thinking";
+                                thinkingBlock.style.color = "#71717a";
+                                thinkingBlock.style.fontStyle = "italic";
+                                thinkingBlock.style.fontSize = "0.9em";
+                                thinkingBlock.style.backgroundColor = "#f8fafc";
+                                thinkingBlock.style.padding = "8px 12px";
+                                thinkingBlock.style.borderRadius = "8px";
+                                thinkingBlock.style.marginBottom = "10px";
+                                thinkingBlock.style.borderLeft = "3px solid #cbd5e1";
+                                thinkingBlock.innerHTML = "💭 <b>Sto pensando...</b><br>";
+                                aiMessageDiv.appendChild(thinkingBlock);
+                            }
+
+                            if (datiJson.tipo === "step") {
+                                const stepDiv = document.createElement("div");
+                                stepDiv.style.color = "#3b82f6";
+                                stepDiv.style.fontWeight = "bold";
+                                stepDiv.style.marginTop = "6px";
+                                stepDiv.textContent = `⚙️ [${datiJson.nodo}]: ${datiJson.testo}`;
+                                thinkingBlock.appendChild(stepDiv);
+                            }
+
+                            if (datiJson.tipo === "ragionamento") {
+                                thinkingBlock.insertAdjacentText("beforeend", datiJson.testo);
+                            }
+
+                            if (datiJson.tipo === "testo") {
+                                let textContainer = aiMessageDiv.querySelector(".ai-response-text");
+                                if (!textContainer) {
+                                    textContainer = document.createElement("div");
+                                    textContainer.className = "ai-response-text";
+                                    textContainer.style.marginTop = "5px";
+                                    aiMessageDiv.appendChild(textContainer);
+                                }
+                                textContainer.insertAdjacentText("beforeend", datiJson.testo);
+                            }
+
+                            chatBox.scrollTop = chatBox.scrollHeight;
+
+                        } catch (e) {
+                            console.error("Errore nel parsing del chunk JSON:", e);
+                        }
+                    }
+                }
+            }
+        } catch (error) {
+            console.error(error);
+            aiMessageDiv.innerHTML = `<span style="color:red">Errore: Connessione fallita.</span>`;
+        }
+        
+        input.disabled = false;
+        btn.disabled = false;
+        input.focus();
+        chatBox.scrollTop = chatBox.scrollHeight;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+flask
+langchain
+langchain-core
+langchain-openai
+langchain-chroma
+langchain-huggingface
+langgraph
+pydantic
+sentence-transformers
+chromadb
+openai

@@ -1,0 +1,1488 @@
+2026-07-27 15:07:17,355 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-27 15:07:17,355 [INFO] [33mPress CTRL+C to quit[0m
+2026-07-27 15:07:26,431 [INFO] 127.0.0.1 - - [27/Jul/2026 15:07:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-07-27 15:07:26,679 [INFO] 127.0.0.1 - - [27/Jul/2026 15:07:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-07-27 15:07:26,796 [INFO] 127.0.0.1 - - [27/Jul/2026 15:07:26] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-07-27 15:07:26,797 [INFO] 127.0.0.1 - - [27/Jul/2026 15:07:26] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-07-27 15:07:26,825 [INFO] 127.0.0.1 - - [27/Jul/2026 15:07:26] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=vS0Ju501WkznWDAWYJmx HTTP/1.1" 200 -
+2026-07-27 15:07:26,831 [INFO] 127.0.0.1 - - [27/Jul/2026 15:07:26] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-07-27 15:07:43,451 [INFO] 127.0.0.1 - - [27/Jul/2026 15:07:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-07-27 15:07:43,462 [INFO] 127.0.0.1 - - [27/Jul/2026 15:07:43] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-27 15:07:43,462 [INFO] 127.0.0.1 - - [27/Jul/2026 15:07:43] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-27 15:07:43,478 [INFO] 127.0.0.1 - - [27/Jul/2026 15:07:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=vS0Ju501WkznWDAWYJmx HTTP/1.1[0m" 304 -
+2026-07-27 15:07:43,483 [INFO] 127.0.0.1 - - [27/Jul/2026 15:07:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-27 15:08:26,762 [INFO] 127.0.0.1 - - [27/Jul/2026 15:08:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-07-27 15:08:26,773 [INFO] 127.0.0.1 - - [27/Jul/2026 15:08:26] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-27 15:08:26,774 [INFO] 127.0.0.1 - - [27/Jul/2026 15:08:26] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-27 15:08:26,785 [INFO] 127.0.0.1 - - [27/Jul/2026 15:08:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=vS0Ju501WkznWDAWYJmx HTTP/1.1[0m" 304 -
+2026-07-27 15:08:26,789 [INFO] 127.0.0.1 - - [27/Jul/2026 15:08:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-27 15:09:41,011 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-27 15:09:41,011 [INFO] [33mPress CTRL+C to quit[0m
+2026-07-27 15:09:44,457 [INFO] 127.0.0.1 - - [27/Jul/2026 15:09:44] "GET / HTTP/1.1" 200 -
+2026-07-27 15:09:45,366 [INFO] 127.0.0.1 - - [27/Jul/2026 15:09:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-27 15:09:57,818 [INFO] NUOVA SESSIONE: 167e6ec2-8d2c-406c-8e4d-009169bee9d2
+2026-07-27 15:09:57,818 [INFO] DOMANDA: voglio una coreografia street jazz divertente da 7 mosse
+2026-07-27 15:09:57,818 [INFO] 127.0.0.1 - - [27/Jul/2026 15:09:57] "POST /chiedi HTTP/1.1" 200 -
+2026-07-27 15:10:11,370 [INFO] HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-07-27 15:10:11,502 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:10:11,531 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 15:10:11,684 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:10:11,707 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 15:10:11,723 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-27 15:10:11,861 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:10:11,862 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-27 15:10:11,885 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 15:10:12,079 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:10:12,102 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-27 15:10:12,258 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:10:12,279 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 15:10:12,420 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:10:12,438 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-27 15:10:12,580 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:10:12,723 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:10:12,744 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 15:10:12,977 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:10:13,123 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:10:13,262 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:10:13,396 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:10:13,542 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:10:13,561 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 15:10:13,704 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:10:13,729 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 15:10:13,864 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:10:13,892 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 15:10:14,033 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:10:14,062 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 15:10:14,205 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-27 15:10:14,344 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-27 15:10:14,507 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:10:14,524 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-27 15:10:14,674 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-27 15:10:15,448 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-07-27 15:10:16,064 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:10:17,442 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-07-27 15:10:17,785 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:10:18,651 [INFO] DEBUG [parse_dance_prompt]: risposta ricevuta da OpenRouter..
+2026-07-27 15:10:18,653 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': None, 'motion_type': None, 'min_bpm': None, 'max_bpm': None, 'tempo_description': None, 'mood_keywords': ['allegra', 'allegro', 'divertente', 'festosa', 'festoso', 'giocosa', 'giocoso', 'leggero', 'party', 'playful'], 'n_sequenze': 7, 'prompt_originale': 'voglio una coreografia street jazz divertente da 7 mosse'}
+2026-07-27 15:10:19,000 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:10:21,836 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:10:25,220 [INFO] SUPERVISION STEP: 📂 Fallback controllato: cerco in Chroma usando il prompt originale...
+2026-07-27 15:10:25,221 [INFO] SESSIONE TERMINATA
+2026-07-27 15:17:00,513 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-27 15:17:00,513 [INFO] [33mPress CTRL+C to quit[0m
+2026-07-27 15:17:08,973 [INFO] 127.0.0.1 - - [27/Jul/2026 15:17:08] "GET / HTTP/1.1" 200 -
+2026-07-27 15:17:56,153 [INFO] NUOVA SESSIONE: 94a623e7-77e4-4298-985e-43469d45403b
+2026-07-27 15:17:56,153 [INFO] DOMANDA: voglio una coreografia street jazz energica da 7 mosse
+2026-07-27 15:17:56,153 [INFO] 127.0.0.1 - - [27/Jul/2026 15:17:56] "POST /chiedi HTTP/1.1" 200 -
+2026-07-27 15:18:03,551 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:18:03,583 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 15:18:03,723 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:18:03,725 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-27 15:18:03,767 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 15:18:03,770 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-27 15:18:03,912 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:18:03,943 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 15:18:04,086 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:18:04,110 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-27 15:18:04,250 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:18:04,276 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 15:18:04,419 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:18:04,442 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-27 15:18:04,587 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:18:04,733 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:18:04,759 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 15:18:04,973 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:18:05,116 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:18:05,257 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:18:05,398 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:18:05,533 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:18:05,564 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 15:18:05,705 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:18:05,729 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 15:18:05,873 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:18:05,897 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 15:18:06,042 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:18:06,091 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 15:18:06,248 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-27 15:18:06,396 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-27 15:18:06,561 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:18:06,587 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-27 15:18:06,724 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-27 15:18:07,519 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-07-27 15:18:08,179 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:18:39,759 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-07-27 15:18:40,092 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:18:40,150 [WARNING] [parse_dance_prompt] OpenRouter/parser non disponibile o output non valido. Uso fallback Python. Dettaglio: 'NoneType' object is not iterable
+2026-07-27 15:18:40,151 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': None, 'motion_type': None, 'min_bpm': None, 'max_bpm': None, 'tempo_description': None, 'mood_keywords': ['dinamico', 'energia', 'energica', 'energico', 'esplosivo', 'potente', 'ritmato'], 'n_sequenze': 7, 'prompt_originale': 'voglio una coreografia street jazz energica da 7 mosse'}
+2026-07-27 15:18:40,479 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:18:48,807 [INFO] DEBUG [search_aist_dataset]: query Chroma='voglio una coreografia street jazz energica da 7 mosse gJS Street Jazz dinamico energia energica energico esplosivo potente ritmato'
+2026-07-27 15:18:48,882 [INFO] DEBUG [search_aist_dataset]: trovati 42 risultati validi da Chroma.
+2026-07-27 15:18:49,268 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:19:33,591 [WARNING] build_sequence_plan: candidati_json stringa non JSON. Uso cache Chroma.
+2026-07-27 15:19:33,592 [INFO] DEBUG [build_sequence_plan]: invio a OpenRouter/Nemotron 15 candidati (su 42 validi), richiesta=5 sequenze.
+2026-07-27 15:19:34,213 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:21:34,354 [ERROR] [ERRORE] Impossibile interpretare la scelta del modello OpenRouter/Nemotron: {'message': 'Upstream idle timeout exceeded', 'code': 504}
+2026-07-27 15:21:34,354 [WARNING] Il modello ha prodotto 0 sequenze valide su 5. Completo con candidati Chroma non usati.
+2026-07-27 15:21:34,355 [INFO] [SYSTEM] playlist.json esportata con successo in: C:\Users\leona\Desktop\AgenticAI - OpenRouter\playlist.json
+2026-07-27 15:21:34,906 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:21:41,153 [INFO] SUPERVISED REACT RESULT: success=True generate=5 supervision={'react_completed': True, 'fallback_parse': False, 'fallback_search': False, 'fallback_build': False}
+2026-07-27 15:21:41,153 [INFO] SESSIONE TERMINATA
+2026-07-27 15:31:57,530 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-27 15:31:57,531 [INFO] [33mPress CTRL+C to quit[0m
+2026-07-27 15:32:03,866 [INFO] 127.0.0.1 - - [27/Jul/2026 15:32:03] "GET / HTTP/1.1" 200 -
+2026-07-27 15:32:15,938 [INFO] NUOVA SESSIONE: 97b85dbd-ff22-412c-bf9a-b9c6e20ecfa2
+2026-07-27 15:32:15,938 [INFO] DOMANDA: coreografia street jazz, 7 mosse, energica, difficile
+2026-07-27 15:32:15,939 [INFO] 127.0.0.1 - - [27/Jul/2026 15:32:15] "POST /chiedi HTTP/1.1" 200 -
+2026-07-27 15:32:24,707 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:32:24,709 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-27 15:32:24,732 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 15:32:24,874 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:32:24,899 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 15:32:24,902 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-27 15:32:25,045 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:32:25,073 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 15:32:25,211 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:32:25,238 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-27 15:32:25,374 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:32:25,398 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 15:32:25,540 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:32:25,560 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-27 15:32:25,706 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:32:25,845 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:32:25,868 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 15:32:26,082 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:32:26,234 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:32:26,373 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:32:26,526 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:32:26,674 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:32:26,702 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 15:32:26,845 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:32:26,871 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 15:32:27,015 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:32:27,041 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 15:32:27,174 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:32:27,203 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 15:32:27,359 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-27 15:32:27,503 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-27 15:32:27,662 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:32:27,686 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-27 15:32:27,827 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-27 15:32:28,615 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-07-27 15:32:29,252 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:32:36,980 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-07-27 15:32:37,372 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:33:05,235 [INFO] DEBUG [parse_dance_prompt]: risposta ricevuta da OpenRouter..
+2026-07-27 15:33:05,239 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': 'difficile', 'motion_type': 'choreography', 'min_bpm': 120, 'max_bpm': 140, 'tempo_description': 'fast and energetic', 'mood_keywords': ['dinamico', 'dynamic', 'energetic', 'energia', 'energica', 'energico', 'esplosivo', 'potente', 'ritmato', 'upbeat'], 'n_sequenze': 7, 'prompt_originale': 'coreografia street jazz, 7 mosse, energica, difficile'}
+2026-07-27 15:33:05,623 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:33:06,961 [INFO] DEBUG [search_aist_dataset]: query Chroma='coreografia street jazz, 7 mosse, energica, difficile gJS Street Jazz dinamico dynamic energetic energia energica energico esplosivo potente ritmato upbeat'
+2026-07-27 15:33:07,111 [INFO] DEBUG [search_aist_dataset]: trovati 0 risultati validi da Chroma.
+2026-07-27 15:33:07,447 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:33:09,341 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:33:18,586 [INFO] SUPERVISION STEP: 📂 Fallback controllato: cerco in Chroma usando il prompt originale...
+2026-07-27 15:33:18,588 [INFO] DEBUG [search_aist_dataset]: query Chroma='coreografia street jazz, 7 mosse, energica, difficile gJS Street Jazz dinamico dynamic energetic energia energica energico esplosivo potente ritmato upbeat'
+2026-07-27 15:33:18,686 [INFO] DEBUG [search_aist_dataset]: trovati 0 risultati validi da Chroma.
+2026-07-27 15:33:18,687 [INFO] SESSIONE TERMINATA
+2026-07-27 15:37:42,516 [INFO] NUOVA SESSIONE: 97b85dbd-ff22-412c-bf9a-b9c6e20ecfa2
+2026-07-27 15:37:42,516 [INFO] DOMANDA: coreografia street jazz, 7 mosse, energica
+2026-07-27 15:37:42,516 [INFO] 127.0.0.1 - - [27/Jul/2026 15:37:42] "POST /chiedi HTTP/1.1" 200 -
+2026-07-27 15:37:42,517 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-07-27 15:37:43,172 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:37:50,548 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-07-27 15:37:53,472 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:37:59,804 [INFO] DEBUG [parse_dance_prompt]: risposta ricevuta da OpenRouter..
+2026-07-27 15:37:59,804 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': 'intermediate', 'motion_type': 'choreography', 'min_bpm': 110, 'max_bpm': 130, 'tempo_description': 'fast', 'mood_keywords': ['dinamico', 'dynamic', 'energetic', 'energia', 'energica', 'energico', 'esplosivo', 'potente', 'ritmato', 'upbeat'], 'n_sequenze': 7, 'prompt_originale': 'coreografia street jazz, 7 mosse, energica'}
+2026-07-27 15:38:00,259 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:38:00,296 [WARNING] ReAct non ha completato la sessione. Il controller userà fallback controllato.
+Traceback (most recent call last):
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\supervised_react.py", line 178, in run_supervised_react_workflow
+    _invoke_react_agent(react_agent, domanda, sessione_id)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\supervised_react.py", line 113, in _invoke_react_agent
+    react_agent.invoke(payload, config=config)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+                 ~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<11 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+             ~~~~~~~~~~~^
+        [t for t in loop.tasks.values() if not t.writes],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        schedule_task=loop.accept_push,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+    ~~~~~~~~~~~~~~^
+        t,
+        ^^
+    ...<10 lines>...
+        },
+        ^^
+    )
+    ^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 419, in invoke
+    ret = context.run(self.func, *args, **kwargs)
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langgraph\prebuilt\chat_agent_executor.py", line 679, in call_model
+    response = cast(AIMessage, static_model.invoke(model_input, config))  # type: ignore[union-attr]
+                               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3444, in invoke
+    input_ = context.run(step.invoke, input_, config)
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 6002, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 476, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1849, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1656, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1994, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1758, in _generate
+    return self._create_chat_result(response, generation_info)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1827, in _create_chat_result
+    raise ValueError(response_dict.get("error"))
+ValueError: {'message': 'Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (42/32)', 'code': 502}
+During task with name 'agent' and id 'e9fe970d-2bb0-cfb3-f528-96a2de7c0524'
+2026-07-27 15:38:00,310 [INFO] SUPERVISION STEP: 📂 Fallback controllato: cerco in Chroma usando il prompt originale...
+2026-07-27 15:38:00,313 [INFO] DEBUG [search_aist_dataset]: query Chroma='coreografia street jazz, 7 mosse, energica gJS Street Jazz dinamico dynamic energetic energia energica energico esplosivo potente ritmato upbeat'
+2026-07-27 15:38:00,369 [INFO] DEBUG [search_aist_dataset]: trovati 30 risultati validi da Chroma.
+2026-07-27 15:38:00,369 [INFO] SUPERVISION STEP: 🎭 Fallback controllato: genero playlist.json dai candidati Chroma validi...
+2026-07-27 15:38:00,371 [INFO] DEBUG [build_sequence_plan]: invio a OpenRouter/Nemotron 12 candidati (su 30 validi), richiesta=7 sequenze.
+2026-07-27 15:38:00,764 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:38:19,339 [ERROR] [ERRORE] Impossibile interpretare la scelta del modello OpenRouter/Nemotron: Nessun JSON trovato nella risposta del modello.
+2026-07-27 15:38:19,340 [WARNING] Il modello ha prodotto 0 sequenze valide su 7. Completo con candidati Chroma non usati.
+2026-07-27 15:38:19,346 [INFO] [SYSTEM] playlist.json esportata con successo in: C:\Users\leona\Desktop\AgenticAI - OpenRouter\playlist.json
+2026-07-27 15:38:19,348 [INFO] SUPERVISED REACT RESULT: success=True generate=7 supervision={'react_completed': False, 'fallback_parse': False, 'fallback_search': True, 'fallback_build': True, 'fallback_rebuild_wrong_count': False}
+2026-07-27 15:38:19,348 [INFO] SESSIONE TERMINATA
+2026-07-27 15:48:08,315 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-27 15:48:08,315 [INFO] [33mPress CTRL+C to quit[0m
+2026-07-27 15:48:14,044 [INFO] 127.0.0.1 - - [27/Jul/2026 15:48:14] "GET / HTTP/1.1" 200 -
+2026-07-27 15:48:25,017 [INFO] NUOVA SESSIONE: 889de64f-911a-4aa8-806f-143653adf4af
+2026-07-27 15:48:25,017 [INFO] DOMANDA: coreografia street jazz, energica, 7 mosse
+2026-07-27 15:48:25,017 [INFO] 127.0.0.1 - - [27/Jul/2026 15:48:25] "POST /chiedi HTTP/1.1" 200 -
+2026-07-27 15:48:31,459 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:48:31,461 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-27 15:48:31,483 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 15:48:31,629 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:48:31,654 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 15:48:31,657 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-27 15:48:31,796 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:48:31,823 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 15:48:31,965 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:48:31,987 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-27 15:48:32,124 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:48:32,150 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 15:48:32,296 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:48:32,321 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-27 15:48:32,468 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:48:32,614 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:48:32,638 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 15:48:32,894 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:48:33,035 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:48:33,176 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:48:33,322 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 15:48:33,466 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:48:33,495 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 15:48:33,634 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:48:33,655 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 15:48:33,799 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:48:33,825 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 15:48:33,968 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:48:33,994 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 15:48:34,138 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-27 15:48:34,280 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-27 15:48:34,457 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 15:48:34,483 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-27 15:48:34,632 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-27 15:48:35,424 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-07-27 15:48:36,038 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:48:38,409 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-07-27 15:48:38,738 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:48:38,796 [WARNING] [parse_dance_prompt] OpenRouter/parser non disponibile o output non valido. Uso fallback Python. Dettaglio: {'message': 'Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (67/32)', 'code': 502}
+2026-07-27 15:48:38,798 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': None, 'motion_type': None, 'min_bpm': None, 'max_bpm': None, 'tempo_description': None, 'mood_keywords': ['dinamico', 'energia', 'energica', 'energico', 'esplosivo', 'potente', 'ritmato'], 'n_sequenze': 7, 'prompt_originale': 'coreografia street jazz, energica, 7 mosse'}
+2026-07-27 15:48:39,124 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:48:39,139 [WARNING] ReAct non ha completato la sessione. Il controller userà fallback controllato.
+Traceback (most recent call last):
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\supervised_react.py", line 216, in run_supervised_react_workflow
+    _invoke_react_agent(react_agent, domanda, sessione_id)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\supervised_react.py", line 145, in _invoke_react_agent
+    react_agent.invoke(payload, config=config)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+                 ~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<11 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+             ~~~~~~~~~~~^
+        [t for t in loop.tasks.values() if not t.writes],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        schedule_task=loop.accept_push,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+    ~~~~~~~~~~~~~~^
+        t,
+        ^^
+    ...<10 lines>...
+        },
+        ^^
+    )
+    ^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 419, in invoke
+    ret = context.run(self.func, *args, **kwargs)
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langgraph\prebuilt\chat_agent_executor.py", line 679, in call_model
+    response = cast(AIMessage, static_model.invoke(model_input, config))  # type: ignore[union-attr]
+                               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3444, in invoke
+    input_ = context.run(step.invoke, input_, config)
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 6002, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 476, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1849, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1656, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1994, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1758, in _generate
+    return self._create_chat_result(response, generation_info)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - OpenRouter\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1827, in _create_chat_result
+    raise ValueError(response_dict.get("error"))
+ValueError: {'message': 'Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (33/32)', 'code': 502}
+During task with name 'agent' and id '4d0d2b44-4b34-d8c1-b332-0de5c5f2a56e'
+2026-07-27 15:48:39,145 [INFO] SUPERVISION STEP: 📂 Fallback controllato: cerco in Chroma usando il prompt originale...
+2026-07-27 15:48:39,146 [INFO] DEBUG [search_aist_dataset]: query Chroma='coreografia street jazz, energica, 7 mosse gJS Street Jazz dinamico energia energica energico esplosivo potente ritmato'
+2026-07-27 15:48:39,221 [INFO] DEBUG [search_aist_dataset]: trovati 42 risultati validi da Chroma.
+2026-07-27 15:48:39,221 [INFO] SUPERVISION STEP: 🎭 Fallback controllato: genero playlist.json dai candidati Chroma validi...
+2026-07-27 15:48:39,224 [INFO] DEBUG [build_sequence_plan]: invio a OpenRouter/Nemotron 12 candidati (su 42 validi), richiesta=7 sequenze.
+2026-07-27 15:48:39,552 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 15:48:49,756 [ERROR] [ERRORE] Impossibile interpretare la scelta del modello OpenRouter/Nemotron: Nessun JSON trovato nella risposta del modello.
+2026-07-27 15:48:49,757 [WARNING] Il modello ha prodotto 0 sequenze valide su 7. Completo con candidati Chroma non usati.
+2026-07-27 15:48:49,760 [INFO] [SYSTEM] playlist.json esportata con successo in: C:\Users\leona\Desktop\AgenticAI - OpenRouter\playlist.json
+2026-07-27 15:48:49,760 [INFO] SUPERVISED REACT RESULT: success=True generate=7 supervision={'react_completed': False, 'fallback_parse': False, 'fallback_search': True, 'fallback_build': True, 'fallback_rebuild_wrong_count': False, 'fallback_model_inside_build': True, 'fallback_filter_relaxation': False, 'relaxed_filters_used': [], 'fallback_any': True, 'final_requested': 7, 'final_generated': 7}
+2026-07-27 15:48:49,761 [INFO] SESSIONE TERMINATA
+2026-07-27 20:11:47,033 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-27 20:11:47,033 [INFO] [33mPress CTRL+C to quit[0m
+2026-07-27 20:21:06,246 [INFO] 127.0.0.1 - - [27/Jul/2026 20:21:06] "GET / HTTP/1.1" 200 -
+2026-07-27 20:21:06,925 [INFO] 127.0.0.1 - - [27/Jul/2026 20:21:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-27 20:21:20,096 [INFO] NUOVA SESSIONE: 53b6d45b-6eeb-453a-890d-9d737d90d191
+2026-07-27 20:21:20,096 [INFO] DOMANDA: coreografia street jazz 7 mosse energica
+2026-07-27 20:21:20,097 [INFO] 127.0.0.1 - - [27/Jul/2026 20:21:20] "POST /chiedi HTTP/1.1" 200 -
+2026-07-27 20:21:52,341 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:21:52,361 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 20:21:52,550 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:21:52,551 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-27 20:21:52,573 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 20:21:52,581 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-27 20:21:52,841 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:21:52,871 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 20:21:53,009 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:21:53,030 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-27 20:21:53,229 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:21:53,250 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 20:21:53,393 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:21:53,419 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-27 20:21:53,562 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:21:53,700 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:21:53,729 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 20:21:53,959 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:21:54,136 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:21:54,276 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:21:54,425 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:21:54,584 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:21:54,608 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 20:21:54,751 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:21:54,775 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 20:21:54,911 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:21:54,938 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 20:21:55,101 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:21:55,126 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 20:21:55,268 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-27 20:21:55,411 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-27 20:21:55,587 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:21:55,614 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-27 20:21:55,761 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-27 20:21:56,859 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-07-27 20:22:01,306 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:22:02,217 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-07-27 20:22:02,567 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:22:16,383 [WARNING] [parse_dance_prompt] OpenRouter/parser non disponibile o output non valido. Uso fallback Python. Dettaglio: JSON trovato ma non bilanciato nella risposta del modello.
+2026-07-27 20:22:16,384 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': None, 'motion_type': None, 'min_bpm': None, 'max_bpm': None, 'tempo_description': None, 'mood_keywords': ['dinamico', 'energia', 'energica', 'energico', 'esplosivo', 'potente', 'ritmato'], 'n_sequenze': 7, 'prompt_originale': 'coreografia street jazz 7 mosse energica'}
+2026-07-27 20:22:16,793 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:22:18,673 [INFO] DEBUG [search_aist_dataset]: query Chroma='coreografia street jazz 7 mosse energica gJS Street Jazz dinamico energia energica energico esplosivo potente ritmato'
+2026-07-27 20:22:18,783 [INFO] DEBUG [search_aist_dataset]: trovati 42 risultati validi da Chroma.
+2026-07-27 20:22:19,166 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:22:30,484 [WARNING] build_sequence_plan: candidati_json stringa non JSON. Uso cache Chroma.
+2026-07-27 20:22:30,486 [INFO] DEBUG [build_sequence_plan]: invio a OpenRouter/Nemotron 12 candidati (su 42 validi), richiesta=7 sequenze.
+2026-07-27 20:22:30,919 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:22:40,622 [ERROR] [ERRORE] Impossibile interpretare la scelta del modello OpenRouter/Nemotron: Nessun JSON trovato nella risposta del modello.
+2026-07-27 20:22:40,622 [WARNING] Il modello ha prodotto 0 sequenze valide su 7. Completo con candidati Chroma non usati.
+2026-07-27 20:22:40,625 [INFO] [SYSTEM] playlist.json esportata con successo in: C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\playlist.json
+2026-07-27 20:22:41,243 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:23:19,123 [INFO] SUPERVISED REACT RESULT: success=True generate=7 supervision={'react_completed': True, 'fallback_parse': False, 'fallback_search': False, 'fallback_build': False, 'fallback_rebuild_wrong_count': False, 'fallback_model_inside_build': True, 'fallback_filter_relaxation': False, 'relaxed_filters_used': [], 'fallback_any': True, 'final_requested': 7, 'final_generated': 7}
+2026-07-27 20:23:19,124 [INFO] SESSIONE TERMINATA
+2026-07-27 20:47:18,456 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-27 20:47:18,456 [INFO] [33mPress CTRL+C to quit[0m
+2026-07-27 20:47:20,427 [INFO] 127.0.0.1 - - [27/Jul/2026 20:47:20] "GET / HTTP/1.1" 200 -
+2026-07-27 20:47:29,296 [INFO] NUOVA SESSIONE: 6fa435e7-0b57-48d1-b2cc-7bd405414124
+2026-07-27 20:47:29,296 [INFO] DOMANDA: coreografia street jazz 7 mosse energica
+2026-07-27 20:47:29,296 [INFO] 127.0.0.1 - - [27/Jul/2026 20:47:29] "POST /chiedi HTTP/1.1" 200 -
+2026-07-27 20:47:35,500 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:47:35,502 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-27 20:47:35,524 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 20:47:35,655 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:47:35,675 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 20:47:35,676 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-27 20:47:35,812 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:47:35,833 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 20:47:35,972 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:47:36,002 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-27 20:47:36,146 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:47:36,170 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 20:47:36,312 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:47:36,338 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-27 20:47:36,472 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:47:36,614 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:47:36,639 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 20:47:36,854 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:47:36,993 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:47:37,129 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:47:37,269 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:47:37,406 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:47:37,431 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 20:47:37,565 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:47:37,588 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 20:47:37,722 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:47:37,747 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 20:47:37,890 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:47:37,910 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 20:47:38,055 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-27 20:47:38,199 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-27 20:47:38,357 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:47:38,383 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-27 20:47:38,519 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-27 20:47:39,298 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-07-27 20:47:39,889 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:47:40,874 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-07-27 20:47:41,197 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:47:45,238 [INFO] DEBUG [parse_dance_prompt]: risposta ricevuta da OpenRouter..
+2026-07-27 20:47:45,239 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': None, 'motion_type': None, 'min_bpm': None, 'max_bpm': None, 'tempo_description': None, 'mood_keywords': ['dinamico', 'energia', 'energica', 'energico', 'esplosivo', 'potente', 'ritmato'], 'n_sequenze': 7, 'prompt_originale': 'coreografia street jazz 7 mosse energica'}
+2026-07-27 20:47:45,246 [WARNING] ReAct non ha completato la sessione. Il controller userà fallback controllato.
+Traceback (most recent call last):
+  File "C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\supervised_react.py", line 216, in run_supervised_react_workflow
+    _invoke_react_agent(react_agent, domanda, sessione_id)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\supervised_react.py", line 145, in _invoke_react_agent
+    react_agent.invoke(payload, config=config)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+                 ~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<11 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\main.py", line 3011, in stream
+    raise GraphRecursionError(msg)
+langgraph.errors.GraphRecursionError: Recursion limit of 4 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/GRAPH_RECURSION_LIMIT
+2026-07-27 20:47:45,249 [INFO] SUPERVISION STEP: 📂 Fallback controllato: cerco in Chroma usando il prompt originale...
+2026-07-27 20:47:45,250 [INFO] DEBUG [search_aist_dataset]: query Chroma='coreografia street jazz 7 mosse energica gJS Street Jazz dinamico energia energica energico esplosivo potente ritmato'
+2026-07-27 20:47:45,318 [INFO] DEBUG [search_aist_dataset]: trovati 40 risultati validi da Chroma.
+2026-07-27 20:47:45,318 [INFO] SUPERVISION STEP: 🎭 Fallback controllato: genero playlist.json dai candidati Chroma validi...
+2026-07-27 20:47:45,320 [INFO] DEBUG [build_sequence_plan]: invio a OpenRouter/Nemotron 12 candidati (su 40 validi), richiesta=7 sequenze.
+2026-07-27 20:47:45,643 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:47:49,847 [ERROR] [ERRORE] Impossibile interpretare la scelta del modello OpenRouter/Nemotron: Nessun JSON trovato nella risposta del modello.
+2026-07-27 20:47:49,848 [WARNING] Il modello ha prodotto 0 sequenze valide su 7. Completo con candidati Chroma non usati.
+2026-07-27 20:47:49,850 [INFO] [SYSTEM] playlist.json esportata con successo in: C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\playlist.json
+2026-07-27 20:47:49,851 [INFO] SUPERVISED REACT RESULT: success=True generate=7 supervision={'react_completed': False, 'fallback_parse': False, 'fallback_search': True, 'fallback_build': True, 'fallback_rebuild_wrong_count': False, 'fallback_model_inside_build': True, 'fallback_filter_relaxation': False, 'relaxed_filters_used': [], 'fallback_any': True, 'final_requested': 7, 'final_generated': 7}
+2026-07-27 20:47:49,851 [INFO] SESSIONE TERMINATA
+2026-07-27 20:51:13,916 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-27 20:51:13,917 [INFO] [33mPress CTRL+C to quit[0m
+2026-07-27 20:51:16,595 [INFO] 127.0.0.1 - - [27/Jul/2026 20:51:16] "GET / HTTP/1.1" 200 -
+2026-07-27 20:51:26,303 [INFO] NUOVA SESSIONE: e40198c8-9592-4316-a894-f44d7ff28312
+2026-07-27 20:51:26,303 [INFO] DOMANDA: coreografia street jazz, 7 mosse, energica
+2026-07-27 20:51:26,304 [INFO] 127.0.0.1 - - [27/Jul/2026 20:51:26] "POST /chiedi HTTP/1.1" 200 -
+2026-07-27 20:51:33,420 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:51:33,421 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-27 20:51:33,441 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 20:51:33,577 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:51:33,604 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 20:51:33,605 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-27 20:51:33,739 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:51:33,765 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 20:51:33,911 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:51:33,933 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-27 20:51:34,069 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:51:34,092 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 20:51:34,248 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:51:34,272 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-27 20:51:34,410 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:51:34,606 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:51:34,633 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 20:51:34,850 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:51:34,988 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:51:35,125 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:51:35,291 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:51:35,432 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:51:35,460 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 20:51:35,615 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:51:35,638 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 20:51:35,781 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:51:35,808 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 20:51:35,942 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:51:35,966 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 20:51:36,113 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-27 20:51:36,250 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-27 20:51:36,407 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:51:36,434 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-27 20:51:36,571 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-27 20:51:37,346 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-07-27 20:51:37,948 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:51:39,147 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-07-27 20:51:39,523 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:51:56,998 [WARNING] [parse_dance_prompt] OpenRouter/parser non disponibile o output non valido. Uso fallback Python. Dettaglio: JSON trovato ma non bilanciato nella risposta del modello.
+2026-07-27 20:51:56,998 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': None, 'motion_type': None, 'min_bpm': None, 'max_bpm': None, 'tempo_description': None, 'mood_keywords': ['dinamico', 'energia', 'energica', 'energico', 'esplosivo', 'potente', 'ritmato'], 'n_sequenze': 7, 'prompt_originale': 'coreografia street jazz, 7 mosse, energica'}
+2026-07-27 20:51:57,361 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:52:06,151 [INFO] DEBUG [search_aist_dataset]: query Chroma='coreografia street jazz, 7 mosse, energica gJS Street Jazz dinamico energia energica energico esplosivo potente ritmato'
+2026-07-27 20:52:06,212 [INFO] DEBUG [search_aist_dataset]: trovati 40 risultati validi da Chroma.
+2026-07-27 20:52:06,575 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:52:16,316 [WARNING] build_sequence_plan: candidati_json stringa non JSON. Uso cache Chroma.
+2026-07-27 20:52:16,318 [INFO] DEBUG [build_sequence_plan]: invio a OpenRouter/Nemotron 12 candidati (su 40 validi), richiesta=7 sequenze.
+2026-07-27 20:52:16,778 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:52:36,882 [ERROR] [ERRORE] Impossibile interpretare la scelta del modello OpenRouter/Nemotron: Nessun JSON trovato nella risposta del modello.
+2026-07-27 20:52:36,883 [WARNING] Il modello ha prodotto 0 sequenze valide su 7. Completo con candidati Chroma non usati.
+2026-07-27 20:52:36,886 [INFO] [SYSTEM] playlist.json esportata con successo in: C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\playlist.json
+2026-07-27 20:52:37,479 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:52:48,193 [INFO] SUPERVISED REACT RESULT: success=True generate=7 supervision={'react_completed': True, 'fallback_parse': False, 'fallback_search': False, 'fallback_build': False, 'fallback_rebuild_wrong_count': False, 'fallback_model_inside_build': True, 'fallback_filter_relaxation': False, 'relaxed_filters_used': [], 'fallback_any': True, 'final_requested': 7, 'final_generated': 7}
+2026-07-27 20:52:48,193 [INFO] SESSIONE TERMINATA
+2026-07-27 20:53:29,368 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-27 20:53:29,368 [INFO] [33mPress CTRL+C to quit[0m
+2026-07-27 20:53:29,394 [INFO] 127.0.0.1 - - [27/Jul/2026 20:53:29] "GET / HTTP/1.1" 200 -
+2026-07-27 20:53:43,108 [INFO] NUOVA SESSIONE: 0c73e940-0b5c-4be8-8f92-493622541761
+2026-07-27 20:53:43,109 [INFO] DOMANDA: coreografia street jazz 7 mosse energica
+2026-07-27 20:53:43,109 [INFO] 127.0.0.1 - - [27/Jul/2026 20:53:43] "POST /chiedi HTTP/1.1" 200 -
+2026-07-27 20:53:50,088 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:53:50,089 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-27 20:53:50,349 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 20:53:50,493 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:53:50,516 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 20:53:50,519 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-27 20:53:50,662 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:53:50,686 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 20:53:50,829 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:53:50,854 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-27 20:53:51,060 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:53:51,088 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 20:53:51,223 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:53:51,249 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-27 20:53:51,394 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:53:51,543 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:53:51,566 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 20:53:51,785 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:53:51,921 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:53:52,057 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:53:52,200 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:53:52,332 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:53:52,351 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 20:53:52,486 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:53:52,510 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 20:53:52,653 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:53:52,679 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 20:53:52,823 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:53:52,847 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 20:53:52,996 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-27 20:53:53,143 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-27 20:53:53,300 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:53:53,325 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-27 20:53:53,472 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-27 20:53:54,247 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-07-27 20:53:54,966 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:53:55,848 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-07-27 20:53:56,179 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:54:00,438 [WARNING] [parse_dance_prompt] OpenRouter/parser non disponibile o output non valido. Uso fallback Python. Dettaglio: Nessun JSON trovato nella risposta del modello.
+2026-07-27 20:54:00,439 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': None, 'motion_type': None, 'min_bpm': None, 'max_bpm': None, 'tempo_description': None, 'mood_keywords': ['dinamico', 'energia', 'energica', 'energico', 'esplosivo', 'potente', 'ritmato'], 'n_sequenze': 7, 'prompt_originale': 'coreografia street jazz 7 mosse energica'}
+2026-07-27 20:54:00,792 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:54:04,526 [INFO] DEBUG [search_aist_dataset]: query Chroma='coreografia street jazz 7 mosse energica gJS Street Jazz dinamico energia energica energico esplosivo potente ritmato'
+2026-07-27 20:54:04,607 [INFO] DEBUG [search_aist_dataset]: trovati 40 risultati validi da Chroma.
+2026-07-27 20:54:05,318 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:54:32,412 [WARNING] ReAct non ha completato la sessione. Il controller userà fallback controllato.
+Traceback (most recent call last):
+  File "C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\supervised_react.py", line 216, in run_supervised_react_workflow
+    _invoke_react_agent(react_agent, domanda, sessione_id)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\supervised_react.py", line 145, in _invoke_react_agent
+    react_agent.invoke(payload, config=config)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+                 ~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<11 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\main.py", line 3011, in stream
+    raise GraphRecursionError(msg)
+langgraph.errors.GraphRecursionError: Recursion limit of 8 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/GRAPH_RECURSION_LIMIT
+2026-07-27 20:54:32,413 [INFO] SUPERVISION STEP: 🎭 Fallback controllato: genero playlist.json dai candidati Chroma validi...
+2026-07-27 20:54:32,415 [INFO] DEBUG [build_sequence_plan]: invio a OpenRouter/Nemotron 12 candidati (su 40 validi), richiesta=7 sequenze.
+2026-07-27 20:54:32,808 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:54:40,484 [ERROR] [ERRORE] Impossibile interpretare la scelta del modello OpenRouter/Nemotron: Nessun JSON trovato nella risposta del modello.
+2026-07-27 20:54:40,485 [WARNING] Il modello ha prodotto 0 sequenze valide su 7. Completo con candidati Chroma non usati.
+2026-07-27 20:54:40,487 [INFO] [SYSTEM] playlist.json esportata con successo in: C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\playlist.json
+2026-07-27 20:54:40,488 [INFO] SUPERVISED REACT RESULT: success=True generate=7 supervision={'react_completed': False, 'fallback_parse': False, 'fallback_search': False, 'fallback_build': True, 'fallback_rebuild_wrong_count': False, 'fallback_model_inside_build': True, 'fallback_filter_relaxation': False, 'relaxed_filters_used': [], 'fallback_any': True, 'final_requested': 7, 'final_generated': 7}
+2026-07-27 20:54:40,489 [INFO] SESSIONE TERMINATA
+2026-07-27 20:59:03,311 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-27 20:59:03,311 [INFO] [33mPress CTRL+C to quit[0m
+2026-07-27 20:59:05,354 [INFO] 127.0.0.1 - - [27/Jul/2026 20:59:05] "GET / HTTP/1.1" 200 -
+2026-07-27 20:59:15,475 [INFO] NUOVA SESSIONE: a358bd75-48bf-41c4-a970-b752afacaa84
+2026-07-27 20:59:15,475 [INFO] DOMANDA: coreografia street jazz, 5 mosse, energica
+2026-07-27 20:59:15,475 [INFO] 127.0.0.1 - - [27/Jul/2026 20:59:15] "POST /chiedi HTTP/1.1" 200 -
+2026-07-27 20:59:21,879 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:59:21,881 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-27 20:59:21,906 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 20:59:22,048 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:59:22,073 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 20:59:22,074 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-27 20:59:22,213 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:59:22,236 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 20:59:22,378 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:59:22,400 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-27 20:59:22,532 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:59:22,559 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 20:59:22,691 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:59:22,710 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-27 20:59:22,844 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:59:22,994 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:59:23,016 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 20:59:23,236 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:59:23,621 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:59:23,762 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:59:23,902 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 20:59:24,037 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:59:24,063 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 20:59:24,209 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:59:24,233 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 20:59:24,382 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:59:24,404 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 20:59:24,547 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:59:24,573 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 20:59:24,718 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-27 20:59:24,859 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-27 20:59:25,021 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 20:59:25,050 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-27 20:59:25,186 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-27 20:59:25,965 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-07-27 20:59:26,556 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:59:28,619 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-07-27 20:59:28,941 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:59:33,214 [WARNING] [parse_dance_prompt] OpenRouter/parser non disponibile o output non valido. Uso fallback Python. Dettaglio: Nessun JSON trovato nella risposta del modello.
+2026-07-27 20:59:33,215 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': None, 'motion_type': None, 'min_bpm': None, 'max_bpm': None, 'tempo_description': None, 'mood_keywords': ['dinamico', 'energia', 'energica', 'energico', 'esplosivo', 'potente', 'ritmato'], 'n_sequenze': 5, 'prompt_originale': 'coreografia street jazz, 5 mosse, energica'}
+2026-07-27 20:59:33,555 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:59:37,826 [INFO] DEBUG [search_aist_dataset]: query Chroma='coreografia street jazz, 5 mosse, energica gJS Street Jazz dinamico energia energica energico esplosivo potente ritmato'
+2026-07-27 20:59:37,892 [INFO] DEBUG [search_aist_dataset]: trovati 40 risultati validi da Chroma.
+2026-07-27 20:59:38,255 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 20:59:58,670 [WARNING] ReAct non ha completato la sessione. Il controller userà fallback controllato.
+Traceback (most recent call last):
+  File "C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\supervised_react.py", line 216, in run_supervised_react_workflow
+    _invoke_react_agent(react_agent, domanda, sessione_id)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\supervised_react.py", line 145, in _invoke_react_agent
+    react_agent.invoke(payload, config=config)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+                 ~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<11 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\main.py", line 3011, in stream
+    raise GraphRecursionError(msg)
+langgraph.errors.GraphRecursionError: Recursion limit of 8 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/GRAPH_RECURSION_LIMIT
+2026-07-27 20:59:58,673 [INFO] SUPERVISION STEP: 🎭 Fallback controllato: genero playlist.json dai candidati Chroma validi...
+2026-07-27 20:59:58,676 [INFO] DEBUG [build_sequence_plan]: invio a OpenRouter/Nemotron 10 candidati (su 40 validi), richiesta=5 sequenze.
+2026-07-27 20:59:59,046 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 21:00:02,274 [ERROR] [ERRORE] Impossibile interpretare la scelta del modello OpenRouter/Nemotron: Nessun JSON trovato nella risposta del modello.
+2026-07-27 21:00:02,274 [WARNING] Il modello ha prodotto 0 sequenze valide su 5. Completo con candidati Chroma non usati.
+2026-07-27 21:00:02,277 [INFO] [SYSTEM] playlist.json esportata con successo in: C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\playlist.json
+2026-07-27 21:00:02,278 [INFO] SUPERVISED REACT RESULT: success=True generate=5 supervision={'react_completed': False, 'fallback_parse': False, 'fallback_search': False, 'fallback_build': True, 'fallback_rebuild_wrong_count': False, 'fallback_model_inside_build': True, 'fallback_filter_relaxation': False, 'relaxed_filters_used': [], 'fallback_any': True, 'final_requested': 5, 'final_generated': 5}
+2026-07-27 21:00:02,279 [INFO] SESSIONE TERMINATA
+2026-07-27 21:00:40,603 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-27 21:00:40,603 [INFO] [33mPress CTRL+C to quit[0m
+2026-07-27 21:00:40,675 [INFO] 127.0.0.1 - - [27/Jul/2026 21:00:40] "GET / HTTP/1.1" 200 -
+2026-07-27 21:02:22,396 [INFO] NUOVA SESSIONE: e12a4eb0-c8da-49c8-a048-b0728e1d73d6
+2026-07-27 21:02:22,396 [INFO] DOMANDA: coreografia street jazz 5 mosse energica
+2026-07-27 21:02:22,396 [INFO] 127.0.0.1 - - [27/Jul/2026 21:02:22] "POST /chiedi HTTP/1.1" 200 -
+2026-07-27 21:02:33,080 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:02:33,081 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-27 21:02:33,106 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 21:02:33,244 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:02:33,266 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 21:02:33,267 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-27 21:02:33,406 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:02:33,426 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 21:02:33,641 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:02:33,797 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-27 21:02:33,934 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:02:33,959 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 21:02:34,095 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:02:34,146 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-27 21:02:34,290 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 21:02:34,419 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:02:34,439 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 21:02:34,732 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 21:02:34,870 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 21:02:35,000 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 21:02:35,133 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 21:02:35,263 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:02:35,286 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 21:02:35,419 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:02:35,445 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 21:02:35,589 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:02:35,618 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 21:02:35,760 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:02:35,777 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 21:02:35,920 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-27 21:02:36,061 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-27 21:02:36,247 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:02:36,272 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-27 21:02:36,409 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-27 21:02:37,849 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-07-27 21:02:38,452 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 21:02:42,448 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-07-27 21:02:42,773 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 21:02:44,452 [WARNING] [parse_dance_prompt] OpenRouter/parser non disponibile o output non valido. Uso fallback Python. Dettaglio: Nessun JSON trovato nella risposta del modello.
+2026-07-27 21:02:44,453 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': None, 'motion_type': None, 'min_bpm': None, 'max_bpm': None, 'tempo_description': None, 'mood_keywords': ['dinamico', 'energia', 'energica', 'energico', 'esplosivo', 'potente', 'ritmato'], 'n_sequenze': 5, 'prompt_originale': 'coreografia street jazz 5 mosse energica'}
+2026-07-27 21:02:44,787 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 21:02:47,115 [INFO] DEBUG [search_aist_dataset]: query Chroma='coreografia street jazz 5 mosse energica gJS Street Jazz dinamico energia energica energico esplosivo potente ritmato'
+2026-07-27 21:02:47,215 [INFO] DEBUG [search_aist_dataset]: trovati 40 risultati validi da Chroma.
+2026-07-27 21:02:47,563 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 21:03:02,266 [WARNING] build_sequence_plan: candidati_json stringa non JSON. Uso cache Chroma.
+2026-07-27 21:03:02,268 [INFO] DEBUG [build_sequence_plan]: invio a OpenRouter/Nemotron 10 candidati (su 40 validi), richiesta=5 sequenze.
+2026-07-27 21:03:02,601 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 21:03:46,894 [ERROR] [ERRORE] Impossibile interpretare la scelta del modello OpenRouter/Nemotron: Nessun JSON trovato nella risposta del modello.
+2026-07-27 21:03:46,895 [WARNING] Il modello ha prodotto 0 sequenze valide su 5. Completo con candidati Chroma non usati.
+2026-07-27 21:03:46,896 [INFO] [SYSTEM] playlist.json esportata con successo in: C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\playlist.json
+2026-07-27 21:03:47,537 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 21:03:47,550 [WARNING] ReAct non ha completato la sessione. Il controller userà fallback controllato.
+Traceback (most recent call last):
+  File "C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\supervised_react.py", line 216, in run_supervised_react_workflow
+    _invoke_react_agent(react_agent, domanda, sessione_id)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\supervised_react.py", line 145, in _invoke_react_agent
+    react_agent.invoke(payload, config=config)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+                 ~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<11 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+             ~~~~~~~~~~~^
+        [t for t in loop.tasks.values() if not t.writes],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        schedule_task=loop.accept_push,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+    ~~~~~~~~~~~~~~^
+        t,
+        ^^
+    ...<10 lines>...
+        },
+        ^^
+    )
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\_internal\_runnable.py", line 419, in invoke
+    ret = context.run(self.func, *args, **kwargs)
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\prebuilt\chat_agent_executor.py", line 679, in call_model
+    response = cast(AIMessage, static_model.invoke(model_input, config))  # type: ignore[union-attr]
+                               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\runnables\base.py", line 3444, in invoke
+    input_ = context.run(step.invoke, input_, config)
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\runnables\base.py", line 6002, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\language_models\chat_models.py", line 476, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1849, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1656, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1994, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_openai\chat_models\base.py", line 1758, in _generate
+    return self._create_chat_result(response, generation_info)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_openai\chat_models\base.py", line 1827, in _create_chat_result
+    raise ValueError(response_dict.get("error"))
+ValueError: {'message': 'Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (183/32)', 'code': 502}
+During task with name 'agent' and id 'f911c382-537e-c8be-119d-2228339ff47c'
+2026-07-27 21:03:47,569 [INFO] SUPERVISED REACT RESULT: success=True generate=5 supervision={'react_completed': False, 'fallback_parse': False, 'fallback_search': False, 'fallback_build': False, 'fallback_rebuild_wrong_count': False, 'fallback_model_inside_build': True, 'fallback_filter_relaxation': False, 'relaxed_filters_used': [], 'fallback_any': True, 'final_requested': 5, 'final_generated': 5}
+2026-07-27 21:03:47,570 [INFO] SESSIONE TERMINATA
+2026-07-27 21:22:17,920 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-27 21:22:17,920 [INFO] [33mPress CTRL+C to quit[0m
+2026-07-27 21:22:27,340 [INFO] 127.0.0.1 - - [27/Jul/2026 21:22:27] "GET / HTTP/1.1" 200 -
+2026-07-27 21:22:39,355 [INFO] NUOVA SESSIONE: 7e049982-dd56-42f9-a375-c1d3b006f52e
+2026-07-27 21:22:39,355 [INFO] DOMANDA: coreografia street jazz 5 mosse energica
+2026-07-27 21:22:39,355 [INFO] 127.0.0.1 - - [27/Jul/2026 21:22:39] "POST /chiedi HTTP/1.1" 200 -
+2026-07-27 21:22:46,695 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:22:46,696 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-27 21:22:46,724 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 21:22:46,873 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:22:46,897 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 21:22:46,897 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-27 21:22:47,039 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:22:47,063 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-27 21:22:47,208 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:22:47,231 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-27 21:22:47,437 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:22:47,464 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-27 21:22:47,607 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:22:47,637 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-27 21:22:47,781 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 21:22:47,929 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:22:47,951 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 21:22:48,167 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 21:22:48,311 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 21:22:48,457 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 21:22:48,596 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-27 21:22:48,743 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:22:48,767 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 21:22:48,898 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:22:48,918 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 21:22:49,057 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:22:49,079 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-27 21:22:49,218 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:22:49,247 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-27 21:22:49,388 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-27 21:22:49,533 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-27 21:22:49,696 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-27 21:22:49,724 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-27 21:22:49,867 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-27 21:22:50,667 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-07-27 21:22:51,351 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 21:22:57,097 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-07-27 21:22:57,417 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 21:22:59,055 [INFO] DEBUG [parse_dance_prompt]: risposta ricevuta da OpenRouter..
+2026-07-27 21:22:59,057 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': None, 'motion_type': None, 'min_bpm': None, 'max_bpm': None, 'tempo_description': None, 'mood_keywords': ['dinamico', 'energia', 'energica', 'energico', 'esplosivo', 'potente', 'ritmato'], 'n_sequenze': 5, 'prompt_originale': 'coreografia street jazz 5 mosse energica'}
+2026-07-27 21:22:59,396 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 21:24:10,065 [INFO] DEBUG [search_aist_dataset]: query Chroma='coreografia street jazz 5 mosse energica gJS Street Jazz dinamico energia energica energico esplosivo potente ritmato'
+2026-07-27 21:24:10,138 [INFO] DEBUG [search_aist_dataset]: trovati 40 risultati validi da Chroma.
+2026-07-27 21:24:10,362 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-07-27 21:24:10,367 [WARNING] ReAct non ha completato la sessione. Il controller userà fallback controllato.
+Traceback (most recent call last):
+  File "C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\supervised_react.py", line 216, in run_supervised_react_workflow
+    _invoke_react_agent(react_agent, domanda, sessione_id)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\supervised_react.py", line 145, in _invoke_react_agent
+    react_agent.invoke(payload, config=config)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+                 ~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<11 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+             ~~~~~~~~~~~^
+        [t for t in loop.tasks.values() if not t.writes],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        schedule_task=loop.accept_push,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+    ~~~~~~~~~~~~~~^
+        t,
+        ^^
+    ...<10 lines>...
+        },
+        ^^
+    )
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\_internal\_runnable.py", line 419, in invoke
+    ret = context.run(self.func, *args, **kwargs)
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\prebuilt\chat_agent_executor.py", line 679, in call_model
+    response = cast(AIMessage, static_model.invoke(model_input, config))  # type: ignore[union-attr]
+                               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\runnables\base.py", line 3444, in invoke
+    input_ = context.run(step.invoke, input_, config)
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\runnables\base.py", line 6002, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\language_models\chat_models.py", line 476, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1849, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1656, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1994, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_openai\chat_models\base.py", line 1747, in _generate
+    _handle_openai_api_error(e)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_openai\chat_models\base.py", line 1742, in _generate
+    raw_response = self.client.with_raw_response.create(**payload)
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openai\_legacy_response.py", line 369, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+                                      ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1284, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openai\_base_client.py", line 1360, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openai\_base_client.py", line 1133, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1785196800000'}, 'provider_name': None}}, 'user_id': 'user_3GddBZd3TemdtlfybllXJmNxI70'}
+During task with name 'agent' and id 'b214b147-b7ab-a6b9-170e-b0e65eee5abf'
+2026-07-27 21:24:10,411 [INFO] SUPERVISION STEP: 🎭 Fallback controllato: genero playlist.json dai candidati Chroma validi...
+2026-07-27 21:24:10,413 [INFO] DEBUG [build_sequence_plan]: invio a OpenRouter/Nemotron 10 candidati (su 40 validi), richiesta=5 sequenze.
+2026-07-27 21:24:10,450 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-07-27 21:24:10,451 [ERROR] [ERRORE] Impossibile interpretare la scelta del modello OpenRouter/Nemotron: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1785196800000'}, 'provider_name': None}}, 'user_id': 'user_3GddBZd3TemdtlfybllXJmNxI70'}
+2026-07-27 21:24:10,451 [WARNING] Il modello ha prodotto 0 sequenze valide su 5. Completo con candidati Chroma non usati.
+2026-07-27 21:24:10,452 [INFO] [SYSTEM] playlist.json esportata con successo in: C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\playlist.json
+2026-07-27 21:24:10,452 [INFO] SUPERVISED REACT RESULT: success=True generate=5 supervision={'react_completed': False, 'fallback_parse': False, 'fallback_search': False, 'fallback_build': True, 'fallback_rebuild_wrong_count': False, 'fallback_model_inside_build': True, 'fallback_filter_relaxation': False, 'relaxed_filters_used': [], 'fallback_any': True, 'final_requested': 5, 'final_generated': 5}
+2026-07-27 21:24:10,452 [INFO] SESSIONE TERMINATA
+2026-07-28 18:01:49,694 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-28 18:01:49,704 [INFO] [33mPress CTRL+C to quit[0m
+2026-07-28 18:01:54,011 [INFO] 127.0.0.1 - - [28/Jul/2026 18:01:54] "GET / HTTP/1.1" 200 -
+2026-07-28 18:01:54,468 [INFO] 127.0.0.1 - - [28/Jul/2026 18:01:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-28 18:02:03,740 [INFO] NUOVA SESSIONE: 985679eb-4a1b-43c8-bd04-3632b56cf306
+2026-07-28 18:02:03,740 [INFO] DOMANDA: coreografia street jazz, energica, 5 mosse
+2026-07-28 18:02:03,740 [INFO] 127.0.0.1 - - [28/Jul/2026 18:02:03] "POST /chiedi HTTP/1.1" 200 -
+2026-07-28 18:02:28,835 [INFO] HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-07-28 18:02:28,970 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:02:28,971 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-28 18:02:28,990 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-28 18:02:29,128 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:02:29,154 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-28 18:02:29,161 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-28 18:02:29,290 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:02:29,313 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-28 18:02:29,447 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:02:29,469 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-28 18:02:29,613 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:02:29,631 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-28 18:02:29,775 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:02:29,801 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-28 18:02:29,946 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-28 18:02:30,084 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:02:30,107 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-28 18:02:30,356 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-28 18:02:30,494 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-28 18:02:30,632 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-28 18:02:30,771 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-28 18:02:30,908 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:02:30,929 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-28 18:02:31,065 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:02:31,083 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-28 18:02:31,215 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:02:31,242 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-28 18:02:31,384 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:02:31,410 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-28 18:02:31,558 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-28 18:02:31,698 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-28 18:02:31,870 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:02:31,890 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-28 18:02:32,037 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-28 18:02:33,298 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-07-28 18:02:33,874 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-28 18:02:34,871 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-07-28 18:02:35,189 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-28 18:02:38,598 [INFO] DEBUG [parse_dance_prompt]: risposta ricevuta da OpenRouter..
+2026-07-28 18:02:38,598 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': None, 'motion_type': None, 'min_bpm': None, 'max_bpm': None, 'tempo_description': None, 'mood_keywords': ['dinamico', 'energia', 'energica', 'energico', 'esplosivo', 'potente', 'ritmato'], 'n_sequenze': 5, 'prompt_originale': 'coreografia street jazz, energica, 5 mosse'}
+2026-07-28 18:02:38,950 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-28 18:02:42,649 [INFO] DEBUG [search_aist_dataset]: query Chroma='coreografia street jazz, energica, 5 mosse gJS Street Jazz dinamico energia energica energico esplosivo potente ritmato'
+2026-07-28 18:02:42,771 [INFO] DEBUG [search_aist_dataset]: trovati 40 risultati validi da Chroma.
+2026-07-28 18:02:43,129 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-28 18:03:06,734 [WARNING] build_sequence_plan: candidati_json stringa non JSON. Uso cache Chroma.
+2026-07-28 18:03:06,736 [INFO] DEBUG [build_sequence_plan]: invio a OpenRouter/Nemotron 10 candidati (su 40 validi), richiesta=5 sequenze.
+2026-07-28 18:03:07,064 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-28 18:03:11,746 [WARNING] DEBUG [build_sequence_plan]: risposta grezza modello='The user wants a street jazz choreography, energetic, 5 moves. I need to select 5 sequences from the candidates and order them as intro, development, peak, finale. Since all are "facile" difficulty and same genre, I should order by BPM to create energy progression: start lower BPM, build up to higher BPM for peak, then maybe slightly lower for finale. Let\'s list candidates with BPM:\n\n0: 130\n1: 130\n2: 110\n3: 120\n4: 120\n5: 90\n6: 100\n7: 80\n8: 110\n9: 90\n\nWe need 5 sequences. For energetic street jazz, we want a progression: intro (lower energy), development (building), peak (highest energy), finale (maybe high but slightly lower). Since we have 5 slots, we can do: intro (80-90), development (100-110), peak (130), finale (120). But we need 5 sequences, so maybe: intro (80), development1 (90'
+2026-07-28 18:03:11,748 [WARNING] DEBUG [build_sequence_plan]: recuperati indici da testo libero=[5, 0, 1, 2, 3]
+2026-07-28 18:03:11,748 [INFO] DEBUG [build_sequence_plan]: Il modello ha scelto 5 indici validabili.
+2026-07-28 18:03:11,749 [INFO] [SYSTEM] playlist.json esportata con successo in: C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\playlist.json
+2026-07-28 18:03:12,126 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-28 18:03:22,875 [INFO] SUPERVISED REACT RESULT: success=True generate=5 supervision={'react_completed': True, 'fallback_parse': False, 'fallback_search': False, 'fallback_build': False, 'fallback_rebuild_wrong_count': False, 'fallback_model_inside_build': True, 'fallback_filter_relaxation': False, 'relaxed_filters_used': [], 'fallback_any': True, 'final_requested': 5, 'final_generated': 5}
+2026-07-28 18:03:22,876 [INFO] SESSIONE TERMINATA
+2026-07-28 18:15:45,533 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-28 18:15:45,533 [INFO] [33mPress CTRL+C to quit[0m
+2026-07-28 18:15:49,294 [INFO] 127.0.0.1 - - [28/Jul/2026 18:15:49] "GET / HTTP/1.1" 200 -
+2026-07-28 18:16:02,606 [INFO] NUOVA SESSIONE: 52530ed5-6d0d-4918-8b18-c1735d8dd011
+2026-07-28 18:16:02,606 [INFO] DOMANDA: coreografia street jazz , 4 mosse, energica
+2026-07-28 18:16:02,607 [INFO] 127.0.0.1 - - [28/Jul/2026 18:16:02] "POST /chiedi HTTP/1.1" 200 -
+2026-07-28 18:16:09,203 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:16:09,225 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-28 18:16:09,358 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:16:09,388 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-28 18:16:09,389 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-28 18:16:09,518 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:16:09,544 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-28 18:16:09,678 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:16:09,697 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-28 18:16:09,835 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:16:09,835 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-28 18:16:09,854 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-28 18:16:09,984 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:16:10,003 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-28 18:16:10,143 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-28 18:16:10,276 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:16:10,302 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-28 18:16:10,519 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-28 18:16:10,655 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-28 18:16:10,789 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-28 18:16:10,924 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-28 18:16:11,058 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:16:11,082 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-28 18:16:11,217 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:16:11,243 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-28 18:16:11,385 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:16:11,410 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-28 18:16:11,554 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:16:11,573 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-28 18:16:11,728 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-28 18:16:11,906 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-28 18:16:12,061 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-28 18:16:12,080 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-28 18:16:12,219 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-28 18:16:13,021 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-07-28 18:16:13,806 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-28 18:16:14,497 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-07-28 18:16:14,817 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-28 18:16:25,157 [INFO] DEBUG [parse_dance_prompt]: risposta ricevuta da OpenRouter..
+2026-07-28 18:16:25,157 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': None, 'motion_type': None, 'min_bpm': None, 'max_bpm': None, 'tempo_description': None, 'mood_keywords': ['dinamico', 'energia', 'energica', 'energico', 'esplosivo', 'potente', 'ritmato'], 'n_sequenze': 4, 'prompt_originale': 'coreografia street jazz , 4 mosse, energica'}
+2026-07-28 18:16:25,506 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-28 18:16:27,811 [INFO] DEBUG [search_aist_dataset]: query Chroma='coreografia street jazz , 4 mosse, energica gJS Street Jazz dinamico energia energica energico esplosivo potente ritmato'
+2026-07-28 18:16:27,877 [INFO] DEBUG [search_aist_dataset]: trovati 40 risultati validi da Chroma.
+2026-07-28 18:16:28,221 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-28 18:17:10,400 [WARNING] build_sequence_plan: candidati_json stringa non JSON. Uso cache Chroma.
+2026-07-28 18:17:10,402 [INFO] DEBUG [build_sequence_plan]: invio a OpenRouter/Nemotron 10 candidati (su 40 validi), richiesta=4 sequenze.
+2026-07-28 18:17:10,774 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-28 18:17:14,799 [WARNING] DEBUG [build_sequence_plan]: risposta grezza modello='The user wants a choreography sequence of 4 moves for "street jazz", energetic.\nI need to select 4 candidates from the provided list and order them: intro, development, peak, finale.\nAll candidates are Street Jazz (gJS), difficulty "facile", situation "sBM".\nBPM varies: 80, 90, 100, 110, 120, 130.\nFor an energetic progression, BPM should generally increase or at least build energy.\nIntro: Lower/Medium energy (maybe 100-110 BPM)\nDevelopment: Building energy (120 BPM)\nPeak: High energy (130 BPM)\nFinale: High energy or resolving (130 or 120 BPM)\n\nAvailable BPMs:\n0: 130 (d03, mJS5)\n1: 110 (d03, mJS3)\n2: 130 (d02, mJS5)\n3: 120 (d03, mJS4)\n4: 120 (d02, mJS4)\n5: 90 (d0'
+2026-07-28 18:17:14,801 [WARNING] DEBUG [build_sequence_plan]: recuperati indici da testo libero=[4, 0, 1, 2]
+2026-07-28 18:17:14,801 [INFO] DEBUG [build_sequence_plan]: Il modello ha scelto 4 indici validabili.
+2026-07-28 18:17:14,804 [INFO] [SYSTEM] playlist.json esportata con successo in: C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\playlist.json
+2026-07-28 18:17:15,171 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-28 18:18:14,606 [INFO] SUPERVISED REACT RESULT: success=True generate=4 supervision={'react_completed': True, 'fallback_parse': False, 'fallback_search': False, 'fallback_build': False, 'fallback_rebuild_wrong_count': False, 'fallback_model_inside_build': True, 'fallback_filter_relaxation': False, 'relaxed_filters_used': [], 'fallback_any': True, 'final_requested': 4, 'final_generated': 4}
+2026-07-28 18:18:14,606 [INFO] SESSIONE TERMINATA
+2026-08-03 15:02:03,120 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-03 15:02:03,121 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-03 15:02:06,765 [INFO] 127.0.0.1 - - [03/Aug/2026 15:02:06] "GET / HTTP/1.1" 200 -
+2026-08-03 15:02:07,463 [INFO] 127.0.0.1 - - [03/Aug/2026 15:02:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-03 15:02:15,759 [INFO] NUOVA SESSIONE: ff98566c-f977-439b-9b86-687d2472ada4
+2026-08-03 15:02:15,759 [INFO] DOMANDA: coreografia street jazz 5 mosse energica
+2026-08-03 15:02:15,759 [INFO] 127.0.0.1 - - [03/Aug/2026 15:02:15] "POST /chiedi HTTP/1.1" 200 -
+2026-08-03 15:02:41,297 [INFO] HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-08-03 15:02:41,436 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-03 15:02:41,438 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-03 15:02:41,463 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-03 15:02:41,601 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-03 15:02:41,629 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-03 15:02:41,647 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-08-03 15:02:41,785 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-03 15:02:41,809 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-03 15:02:41,946 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-03 15:02:41,977 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-08-03 15:02:42,122 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-03 15:02:42,140 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-03 15:02:42,280 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-03 15:02:42,308 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-08-03 15:02:42,458 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-08-03 15:02:42,587 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-03 15:02:42,608 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-03 15:02:42,954 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-08-03 15:02:43,087 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-03 15:02:43,237 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-03 15:02:43,378 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-03 15:02:43,537 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-03 15:02:43,558 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-03 15:02:43,694 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-03 15:02:43,721 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-03 15:02:43,854 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-03 15:02:43,877 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-03 15:02:44,013 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-03 15:02:44,030 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-03 15:02:44,179 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-03 15:02:44,323 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-03 15:02:44,528 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-03 15:02:44,556 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-08-03 15:02:44,711 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-08-03 15:02:46,784 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-08-03 15:02:47,410 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 15:02:51,496 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-08-03 15:02:51,834 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 15:03:29,091 [INFO] DEBUG [parse_dance_prompt]: risposta ricevuta da OpenRouter..
+2026-08-03 15:03:29,092 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': None, 'motion_type': None, 'min_bpm': None, 'max_bpm': None, 'tempo_description': None, 'mood_keywords': ['dinamico', 'energia', 'energica', 'energico', 'esplosivo', 'potente', 'ritmato'], 'n_sequenze': 5, 'prompt_originale': 'coreografia street jazz 5 mosse energica'}
+2026-08-03 15:03:29,449 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 15:03:36,690 [INFO] DEBUG [search_aist_dataset]: query Chroma='coreografia street jazz 5 mosse energica gJS Street Jazz dinamico energia energica energico esplosivo potente ritmato'
+2026-08-03 15:03:36,820 [INFO] DEBUG [search_aist_dataset]: trovati 40 risultati validi da Chroma.
+2026-08-03 15:03:37,201 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 15:04:03,897 [WARNING] build_sequence_plan: candidati_json stringa non JSON. Uso cache Chroma.
+2026-08-03 15:04:03,898 [INFO] DEBUG [build_sequence_plan]: invio a OpenRouter/Nemotron 10 candidati (su 40 validi), richiesta=5 sequenze.
+2026-08-03 15:04:04,244 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 15:05:20,629 [WARNING] DEBUG [build_sequence_plan]: risposta grezza modello='{"sequenze_ordinate":[7,6,8,4,0]}'
+2026-08-03 15:05:20,629 [INFO] DEBUG [build_sequence_plan]: Il modello ha scelto 5 indici validabili.
+2026-08-03 15:05:20,630 [INFO] [SYSTEM] playlist.json esportata con successo in: C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\playlist.json
+2026-08-03 15:05:21,164 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 15:05:33,775 [INFO] SUPERVISED REACT RESULT: success=True generate=5 supervision={'react_completed': True, 'fallback_parse': False, 'fallback_search': False, 'fallback_build': False, 'fallback_rebuild_wrong_count': False, 'fallback_model_inside_build': False, 'fallback_filter_relaxation': False, 'relaxed_filters_used': [], 'fallback_any': False, 'final_requested': 5, 'final_generated': 5}
+2026-08-03 15:05:33,775 [INFO] SESSIONE TERMINATA
+2026-08-25 22:31:23,094 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-25 22:31:23,094 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-25 22:31:37,297 [INFO] 127.0.0.1 - - [25/Aug/2026 22:31:37] "GET / HTTP/1.1" 200 -
+2026-08-25 22:31:37,376 [INFO] 127.0.0.1 - - [25/Aug/2026 22:31:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-25 22:31:44,332 [INFO] NUOVA SESSIONE: e884c9e4-f43f-4f20-b99e-5a845b11628e
+2026-08-25 22:31:44,332 [INFO] DOMANDA: coreografia street jazz 5 mosse
+2026-08-25 22:31:44,333 [INFO] 127.0.0.1 - - [25/Aug/2026 22:31:44] "POST /chiedi HTTP/1.1" 200 -
+2026-08-25 22:32:13,001 [INFO] HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-08-25 22:32:13,207 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-25 22:32:13,285 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-25 22:32:13,457 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-25 22:32:13,457 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-25 22:32:13,507 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-25 22:32:13,514 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-08-25 22:32:13,708 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-25 22:32:13,767 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-25 22:32:13,941 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-25 22:32:14,003 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-08-25 22:32:14,188 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-25 22:32:14,250 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-25 22:32:14,438 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-25 22:32:14,500 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-08-25 22:32:14,674 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-08-25 22:32:14,833 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-25 22:32:14,863 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-25 22:32:15,124 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-08-25 22:32:15,314 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-25 22:32:15,478 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-25 22:32:15,789 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-25 22:32:16,088 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-25 22:32:16,186 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-25 22:32:16,411 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-25 22:32:16,498 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-25 22:32:16,690 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-25 22:32:16,761 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-25 22:32:16,953 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-25 22:32:17,015 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-25 22:32:17,205 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-25 22:32:17,402 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-25 22:32:17,602 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-25 22:32:17,629 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-08-25 22:32:17,788 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-08-25 22:32:19,116 [INFO] SUPERVISION STEP: 🤖 Avvio agente ReAct supervisionato...
+2026-08-25 22:32:20,159 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 22:32:21,680 [INFO] DEBUG [parse_dance_prompt]: invio la richiesta a OpenRouter......
+2026-08-25 22:32:22,255 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 22:32:22,299 [WARNING] [parse_dance_prompt] OpenRouter/parser non disponibile o output non valido. Uso fallback Python. Dettaglio: {'message': 'Upstream error from Nvidia: Service temporarily overloaded', 'code': 502}
+2026-08-25 22:32:22,300 [INFO] DEBUG [parse_dance_prompt]: intent finale={'genre_codes': ['gJS'], 'difficulty': None, 'motion_type': None, 'min_bpm': None, 'max_bpm': None, 'tempo_description': None, 'mood_keywords': [], 'n_sequenze': 5, 'prompt_originale': 'coreografia street jazz 5 mosse'}
+2026-08-25 22:32:22,643 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 22:32:34,395 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 22:32:34,414 [WARNING] ReAct non ha completato la sessione. Il controller userà fallback controllato.
+Traceback (most recent call last):
+  File "C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\supervised_react.py", line 216, in run_supervised_react_workflow
+    _invoke_react_agent(react_agent, domanda, sessione_id)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\Desktop\AgenticAI - Nemotron 3 Ultra\supervised_react.py", line 145, in _invoke_react_agent
+    react_agent.invoke(payload, config=config)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\main.py", line 3913, in invoke
+    for chunk in self.stream(
+                 ~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<11 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\main.py", line 2967, in stream
+    for _ in runner.tick(
+             ~~~~~~~~~~~^
+        [t for t in loop.tasks.values() if not t.writes],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        schedule_task=loop.accept_push,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\_runner.py", line 207, in tick
+    run_with_retry(
+    ~~~~~~~~~~~~~~^
+        t,
+        ^^
+    ...<10 lines>...
+        },
+        ^^
+    )
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\pregel\_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\_internal\_runnable.py", line 684, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\_internal\_runnable.py", line 419, in invoke
+    ret = context.run(self.func, *args, **kwargs)
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langgraph\prebuilt\chat_agent_executor.py", line 679, in call_model
+    response = cast(AIMessage, static_model.invoke(model_input, config))  # type: ignore[union-attr]
+                               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\runnables\base.py", line 3444, in invoke
+    input_ = context.run(step.invoke, input_, config)
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\runnables\base.py", line 6002, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\language_models\chat_models.py", line 476, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1849, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1656, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1994, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_openai\chat_models\base.py", line 1758, in _generate
+    return self._create_chat_result(response, generation_info)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leona\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langchain_openai\chat_models\base.py", line 1827, in _create_chat_result
+    raise ValueError(response_dict.get("error"))
+ValueError: {'message': 'Upstream error from Nvidia: Service temporarily overloaded', 'code': 502}
+During task with name 'agent' and id 'bc0c15c0-34ed-60fc-b845-f1687ac5721e'
+2026-08-25 22:32:34,484 [INFO] SUPERVISION STEP: 📂 Fallback controllato: cerco in Chroma usando il prompt originale...
+2026-08-25 22:32:34,485 [INFO] DEBUG [search_aist_dataset]: query Chroma='coreografia street jazz 5 mosse gJS Street Jazz'
+2026-08-25 22:32:34,604 [INFO] DEBUG [search_aist_dataset]: trovati 40 risultati validi da Chroma.
+2026-08-25 22:32:34,604 [INFO] SUPERVISION STEP: 🎭 Fallback controllato: genero playlist.json dai candidati Chroma validi...
+2026-08-25 22:32:34,606 [INFO] DEBUG [build_sequence_plan]: invio a OpenRouter/Nemotron 10 candidati (su 40 validi), richiesta=5 sequenze.
+2026-08-25 22:32:34,973 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
