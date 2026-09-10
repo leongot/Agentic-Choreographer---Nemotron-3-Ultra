@@ -20,6 +20,8 @@ import logging
 import os
 import re
 import unicodedata
+from collections import defaultdict
+from pathlib import Path
 from pathlib import Path
 from typing import Any, Optional, Union
 
@@ -1582,6 +1584,39 @@ Scegli e ordina la coreografia finale.
         with open(percorso_playlist, "w", encoding="utf-8") as f:
             json.dump(playlist, f, indent=2, ensure_ascii=False)
         logger.info(f"[SYSTEM] playlist.json esportata con successo in: {percorso_playlist}")
+
+        # ============================================================
+        # ESPORTAZIONE NOMI SEQUENZE IN FILE TXT
+        # ============================================================
+        # Crea un file di testo contenente un nome .json per ogni
+        # sequenza presente nella playlist, nello stesso formato
+        # richiesto dal dataset (es. gJS_sBM_cAll_d01_mJS3_ch07.json).
+
+        playlist_animazioni = Path(__file__).parent / "animation.txt"
+
+        try:
+                    # Raggruppa gli ID delle animazioni per ogni dancer_id
+            ballerini_animazioni = defaultdict(list)
+
+            for sequenza in sequenze_finali:
+                dancer_id = sequenza.get("dancer_id")
+                animation_id = sequenza.get("id")
+
+                if dancer_id and animation_id:
+                    ballerini_animazioni[dancer_id].append(f"{animation_id}.json")
+
+            # Scrive ogni ballerino su una nuova riga con le sue mosse separate da spazio (o virgola)
+            with open(playlist_animazioni, "w", encoding="utf-8") as f:
+                for dancer_id, mosse in ballerini_animazioni.items():
+                    f.write(" ".join(mosse) + "\n")
+
+            logger.info(
+                f"[SYSTEM] animation.txt esportato con successo in: "
+                f"{playlist_animazioni}"
+            )
+
+        except Exception as e:
+            logger.error(f"[ERRORE] Impossibile salvare animation.txt: {e}")
     except Exception as e:
         logger.error(f"[ERRORE] Impossibile salvare playlist.json: {e}")
         error_payload = {"success": False, "error": f"Errore salvataggio playlist.json: {e}"}
