@@ -6,11 +6,6 @@ Ruoli:
 1. parse_dance_prompt   -> interpreta richiesta utente: genere, BPM, mood, difficoltà, numero mosse
 2. search_aist_dataset  -> cerca SOLO nel database vettoriale Chroma e filtra sui metadati tecnici
 3. build_sequence_plan  -> fa scegliere al modello OpenRouter la coreografia tra candidati reali e salva playlist.json
-
-Architettura corretta:
-- Chroma è la fonte dei candidati e dei metadati della coreografia.
-- Il modello OpenRouter/Nemotron interpreta e sceglie artisticamente.
-- Python valida, completa i metadati e salva un JSON stabile per Unity/app.
 """
 
 from __future__ import annotations
@@ -36,9 +31,8 @@ from aist_index import KEYWORD_TO_GENRES
 
 logger = logging.getLogger(__name__)
 
-# ============================================================
+
 # CONFIG
-# ============================================================
 MODEL_NAME = "nvidia/nemotron-3-ultra-550b-a55b:free"
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 CHROMA_DIR = "./chroma_db"
@@ -54,9 +48,8 @@ LAST_CHROMA_RESULTS_LIST: list[dict[str, Any]] = []
 LAST_CHROMA_RESULTS_BY_ID: dict[str, dict[str, Any]] = {}
 LAST_PARSED_INTENT: dict[str, Any] = {}
 
-# ============================================================
+
 # STATO WORKFLOW PER REACT SUPERVISIONATO
-# ============================================================
 # Il ReAct agent può scegliere i tool, ma questo stato consente
 # al controller di verificare se parse/search/build sono stati davvero eseguiti.
 WORKFLOW_STATUS: dict[str, Any] = {
@@ -219,9 +212,7 @@ def _store_search_status(payload: dict[str, Any]) -> str:
     _set_workflow_status(**update)
     return search_payload_json
 
-# ============================================================
 # MAPPE AIST++
-# ============================================================
 GENRE_CODE_TO_NAME = {
     "gBR": "Breaking",
     "gPO": "Popping",
@@ -302,9 +293,7 @@ TYPO_FIXES = {
     "braking": "breaking",
 }
 
-# ============================================================
 # CHROMA
-# ============================================================
 embeddings_chroma = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2",
     model_kwargs={"device": "cpu"},
@@ -317,9 +306,8 @@ vector_db = (
 )
 
 
-# ============================================================
+
 # MODELLI LLM
-# ============================================================
 def crea_llm_tool(
     temperature: float,
     reasoning: bool = False,
@@ -352,9 +340,8 @@ def crea_llm_tool(
     )
 
 
-# ============================================================
+
 # HELPER NORMALIZZAZIONE TESTO
-# ============================================================
 def normalizza_testo(testo: str) -> str:
     testo = testo or ""
     testo = testo.lower().strip()
@@ -521,9 +508,8 @@ def normalizza_mood(prompt: str, mood_keywords: Optional[list[str]] = None) -> l
     return sorted(mood_finali)
 
 
-# ============================================================
+
 # HELPER METADATI AIST
-# ============================================================
 def estrai_metadati_da_id(seq_id: str) -> dict[str, Any]:
     metadati: dict[str, Any] = {}
     if not seq_id or not isinstance(seq_id, str):
@@ -674,9 +660,7 @@ def diversifica_candidati(candidati: list[dict[str, Any]], limite: int) -> list[
     return scelti
 
 
-# ============================================================
 # SCHEMI Pydantic
-# ============================================================
 class DanceIntent(BaseModel):
     genre_codes: list[str] = Field(default=[], description="Codici genere AIST++, es. gBR, gHO, gJS")
     difficulty: Optional[str] = Field(default=None, description="facile, medio o difficile")
@@ -700,9 +684,8 @@ class SequencePlan(BaseModel):
     durata_stimata_sec: int = Field(description="Durata stimata totale in secondi")
 
 
-# ============================================================
+
 # TOOL 1 — PARSE
-# ============================================================
 @tool
 def parse_dance_prompt(prompt: str) -> str:
     """
@@ -800,9 +783,8 @@ def parse_dance_prompt(prompt: str) -> str:
     return parsed_payload_json
 
 
-# ============================================================
+
 # TOOL 2 — SEARCH CHROMA
-# ============================================================
 @tool
 def search_aist_dataset(
     genre_codes: list[str],
@@ -977,9 +959,8 @@ def search_aist_dataset(
     return _store_search_status(payload)
 
 
-# ============================================================
+
 # TOOL 3 — BUILD PLAN
-# ============================================================
 def _normalizza_input_candidati(
     candidati_json: Optional[Union[str, dict[str, Any], list[dict[str, Any]]]]
 ) -> list[dict[str, Any]]:
@@ -1248,7 +1229,7 @@ def _normalizza_output_llm(
 
     return scelte[:n_sequenze], descrizione, int(durata)
 
-
+#TOOL 3 — BUILD PLAN
 @tool
 def build_sequence_plan(
     prompt_originale: str,
@@ -1585,13 +1566,8 @@ Scegli e ordina la coreografia finale.
             json.dump(playlist, f, indent=2, ensure_ascii=False)
         logger.info(f"[SYSTEM] playlist.json esportata con successo in: {percorso_playlist}")
 
-        # ============================================================
+    
         # ESPORTAZIONE NOMI SEQUENZE IN FILE TXT
-        # ============================================================
-        # Crea un file di testo contenente un nome .json per ogni
-        # sequenza presente nella playlist, nello stesso formato
-        # richiesto dal dataset (es. gJS_sBM_cAll_d01_mJS3_ch07.json).
-
         playlist_animazioni = Path(__file__).parent / "animation.txt"
 
         try:

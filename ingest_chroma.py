@@ -6,8 +6,6 @@ Uso:
 
 Opzionale:
     python ingest_chroma.py --reset
-
-Gli embedding sono forzati su CPU per non occupare VRAM: il modello remoto OpenRouter non usa la GPU locale.
 """
 
 from __future__ import annotations

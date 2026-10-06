@@ -11,7 +11,7 @@ Obiettivo:
 Perché serve:
 ReAct può fermarsi dopo la search, inventare una seconda richiesta o sovrascrivere una
 ricerca buona con una ricerca fallita. Questo controller mantiene l'approccio ReAct,
-ma aggiunge guardrail industriali.
+ma aggiunge guardrail.
 """
 
 from __future__ import annotations

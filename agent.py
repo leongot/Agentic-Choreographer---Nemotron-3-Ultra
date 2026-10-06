@@ -1,13 +1,6 @@
 """
 agent.py — agente ReAct usato in modalità supervisionata con OpenRouter/Nemotron.
 
-L'app Flask non si fida ciecamente del ReAct libero: il controller
-supervised_react.py esegue questo agente, poi controlla se sono stati eseguiti
-tutti gli step obbligatori:
-parse_dance_prompt -> search_aist_dataset -> build_sequence_plan.
-
-Se ReAct salta uno step, il controller completa il workflow con fallback
-deterministico usando gli stessi tool.
 """
 
 from __future__ import annotations
